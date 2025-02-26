@@ -17,7 +17,8 @@ A **Streamlit-based** web application for summarizing PDF documents using **extr
    git clone <repo_url>
    cd <repo_folder>```
 2.	Install dependencies:
-
    ```bash
-   pip install -r requirements.txt```
+      pip install -r requirements.txt
 3.	Run the application:
+
+###
