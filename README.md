@@ -10,15 +10,19 @@ A **Streamlit-based** web application for summarizing PDF documents using **extr
 - Allows users to select the summarization method and model of choice.  
 - Displays the summary along with execution time.  
 
-## Installation  
+## Supported Models
 
-1. Clone this repository:  
-   ```bash
-   git clone <repo_url>
-   cd <repo_folder>```
-2.	Install dependencies:
-   ```bash
-      pip install -r requirements.txt
-3.	Run the application:
+### Extractive Summarization:
+	•	BERT (bert-large-uncased)
+	•	ALBERT (albert-base-v2)
+	•	DistilBERT (distilbert-base-uncased)
 
-###
+### Abstractive Summarization:
+	•	BART (facebook/bart-large-cnn)
+	•	Pegasus (google/pegasus-xsum)
+	•	DistilBART (sshleifer/distilbart-cnn-12-6)
+
+## Logging
+
+The application uses logging to track activities and errors. Logs are output to the console during execution.
+
